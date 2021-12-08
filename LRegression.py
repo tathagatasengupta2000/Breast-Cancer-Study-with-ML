@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-dataset = pd.read_csv("C:/Users/Tathagata Sengupta/OneDrive/Desktop/ATS Project/Breast Cancer/Data.csv")
+dataset = pd.read_csv("Data.csv")
 X = dataset.iloc[:,1:-1].values
 y = dataset.iloc[:, -1].values
 from sklearn.model_selection import train_test_split

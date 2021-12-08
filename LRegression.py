@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 dataset = pd.read_csv("C:/Users/Tathagata Sengupta/OneDrive/Desktop/ATS Project/Breast Cancer/Data.csv")
 X = dataset.iloc[:,1:-1].values
